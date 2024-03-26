@@ -1,0 +1,235 @@
+.container{
+    height: 90%;
+    width: 85%;
+    box-shadow: rgba(97, 82, 82, 0.2) 0px 7px 29px 0px;
+position: absolute;
+top: 100px;
+left: 150px;
+border-radius: 10px;
+}
+.searshbar{
+    height: 7%;
+    width: 25%;
+    background-color: white;
+    box-shadow: rgba(153, 126, 126, 0.2)px 29px 0px;
+    border-radius: 20px;
+    position: absolute;
+    left: 8%;
+    top: 15px;
+}
+  
+  .searshbar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  
+  .bar {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+  }
+  
+  .line {
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 10px;
+  }
+  
+  .tables {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    top: 70px;
+    
+    
+  }
+  
+  .tabile {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .theadees {
+    background-color: #f5f5f5;
+  }
+  
+  .thees {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  .tdees {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .thees {
+    font-weight: bold;
+  }
+  
+ .trees:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .trees:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .action-icons {
+    display: flex;
+    gap: 10px;
+   
+  }
+  
+  .action-icons .MuiSvgIcon-root {
+    cursor: pointer;
+    color: #777;
+    transition: color 0.3s ease;
+  }
+  
+  .action-icons .MuiSvgIcon-root:hover {
+    color: #333;
+  }
+ /* Client.modules.css */
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: 480px;
+  }
+  
+  .pagination button {
+    background-color: #949b94; /* Green background */
+    border: none;
+    height: 35px;
+    width: 35px;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 0 5px; /* Add some space between buttons */
+  }
+  
+  .pagination button:hover {
+    background-color: #949b94; /* Darker green background on hover */
+  }
+  
+  .pagination button.active {
+    background-color: #b1a9a9; /* Darker green background for active button */
+    
+  }
+  .search-icon{
+    position: relative;
+    top: 3px;
+  }
+  .tabile{
+    width: 98%;
+    border-radius: 10px;
+  }
+  
+  .update-form {
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 230px;
+    left: 360px;
+    
+  
+  }
+  
+  .formmm {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .labelees {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .brrr {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sub {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sub:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Add animations for a more engaging user experience */
+  
+  .formmm {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: slideIn 0.5s forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .addbutton {
+  background-color: #007bff; /* Blue color */
+  color: white; /* Text color */
+  padding: 12px 50px; /* Padding */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+  position: absolute;
+  left: 81%;
+}
+
+.addbutton:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+.susb{
+  background-color: #007bff; /* Blue color */
+  color: white; /* Text color */
+  padding: 12px 25px; /* Padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s; 
+  margin-top: 10px;
+  margin-left: 40%;
+}
+.susb:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
